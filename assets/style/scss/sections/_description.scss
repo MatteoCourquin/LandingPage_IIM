@@ -1,0 +1,20 @@
+// **** DESCRIPTION **** //
+// ===================== //
+
+.description{
+    padding: 20vh 20vw;
+    p{
+        margin: 20px 0;
+        span{
+            display: block;
+            margin: 20px 0;
+        }
+    }
+    img{
+        width: 55%;
+        min-width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

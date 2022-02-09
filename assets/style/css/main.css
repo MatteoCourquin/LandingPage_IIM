@@ -24,6 +24,24 @@ h2 {
   font-size: calc(15px + 0.5vw);
 }
 
+h3 {
+  font-weight: 900;
+  font-size: calc(25px + 1vw);
+  background: linear-gradient(0.25turn, orange, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1rem;
+}
+p span {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
 button {
   font-weight: 400;
 }
@@ -133,6 +151,24 @@ header img {
   margin-top: 30px;
   width: fit-content;
   align-self: flex-end;
+}
+
+.description {
+  padding: 20vh 20vw;
+}
+.description p {
+  margin: 20px 0;
+}
+.description p span {
+  display: block;
+  margin: 20px 0;
+}
+.description img {
+  width: 55%;
+  min-width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
