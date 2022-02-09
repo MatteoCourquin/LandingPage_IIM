@@ -3,18 +3,26 @@
 
 .description{
     padding: 20vh 20vw;
+    width: 100%;
+    @media screen and (max-width : 900px) {
+        padding: 20vh 10vw;
+    }
     p{
-        margin: 20px 0;
+        margin: 50px 0;
+        text-align: justify;
         span{
             display: block;
             margin: 20px 0;
         }
     }
-    img{
-        width: 55%;
-        min-width: 300px;
-        display: block;
-        margin: 0 auto;
-        margin-top: 20px;
+    .iim-classement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        img{
+            width: 150px;
+        }
     }
 }

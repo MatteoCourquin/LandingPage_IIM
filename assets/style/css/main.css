@@ -59,7 +59,7 @@ button:hover {
 }
 
 header {
-  height: 8vh;
+  height: 10vh;
   min-height: 60px;
   display: flex;
   justify-content: space-between;
@@ -73,7 +73,7 @@ header img {
 .hero {
   background: url("../../images/background_IIM.png") no-repeat center center;
   background-size: cover;
-  height: 92vh;
+  height: 90vh;
   min-height: 250px;
   display: grid;
   grid-template-columns: 40% 60%;
@@ -128,6 +128,11 @@ header img {
   height: fit-content;
   width: 400px;
 }
+@media screen and (max-width: 900px) {
+  .hero .container-form form {
+    width: 300px;
+  }
+}
 .hero .container-form form h2 {
   color: #333;
   font-weight: 700;
@@ -155,20 +160,30 @@ header img {
 
 .description {
   padding: 20vh 20vw;
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .description {
+    padding: 20vh 10vw;
+  }
 }
 .description p {
-  margin: 20px 0;
+  margin: 50px 0;
+  text-align: justify;
 }
 .description p span {
   display: block;
   margin: 20px 0;
 }
-.description img {
-  width: 55%;
-  min-width: 300px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
+.description .iim-classement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.description .iim-classement img {
+  width: 150px;
 }
 
 /*# sourceMappingURL=main.css.map */

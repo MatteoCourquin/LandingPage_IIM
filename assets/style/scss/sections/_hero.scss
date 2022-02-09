@@ -4,7 +4,7 @@
 .hero{
     background: url('../../images/background_IIM.png') no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: 90vh;
     min-height: 250px;
     display: grid;
     grid-template-columns: 40% 60%;
@@ -52,6 +52,9 @@
             width: fit-content;
             height: fit-content;
             width: 400px;
+            @media screen and (max-width : 900px) {
+                width: 300px;
+            }
             h2{
                 color: $color-black;
                 font-weight: 700;
