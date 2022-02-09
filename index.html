@@ -15,8 +15,47 @@
         <title>Landing Page - IIM</title>
     </head>
     <body>
+        <header>
+            <img src="./assets/images/logo_IIM.png" alt="Logo IIM">
+        </header>
 
-        
+        <section class="hero">
+            <div class="titles">
+                <h1>IIM Digital School</h1>
+                <div class="line"></div>
+                <h2>Découvrez nos mini formations 100% gratuite et sans engagement en ligne.</h2>
+            </div>
+
+            <div class="container-form">
+
+                <form>
+                    <h2>Recevez gratuitement votre première formation d'initiation !</h2>
+                    
+                    <label for='formations'>Quelle formation vous intéresse ?</label>
+                    <select name='formations' id='formations'>
+                        <option value='choose'>Sélectionner une formation</option>
+                        <option value='HTML/CSS'>HTML/CSS</option>
+                        <option value='JavaScript'>JavaScript</option>
+                        <option value='PHP'>PHP</option>
+                    </select>
+                    
+                    <label for='email'>Votre Mail :</label>
+                    <input type='email' id='email' name='email' placeholder='Mail' />
+                    
+                    <label for='name'>Votre Nom :</label>
+                    <input type='text' id='name' name='name' placeholder='Nom' />
+                    
+                    <label for='last-name'>Votre Prénom :</label>
+                    <input type='text' id='last-name' name='last-name' placeholder='Prénom' />
+
+                    <button>Recevoir ma formation</button>
+                    
+                </form>
+
+            </div>
+        </section>
+
+
 
         <script src="assets/script/script.js"></script>
     </body>

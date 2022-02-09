@@ -4,3 +4,17 @@
 h1, h2, h3, h4, h5, h6, p, a, button{
     font-family: $font-roboto;
 }
+
+h1{
+    font-weight: 900;
+    color: $color-white;
+    font-size: calc(25px + 1vw);
+}
+h2{
+    font-weight: 300;
+    color: $color-white;
+    font-size: calc(15px + 0.5vw);
+}
+button{
+    font-weight: 400;
+}

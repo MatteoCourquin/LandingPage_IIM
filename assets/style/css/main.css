@@ -12,4 +12,127 @@ h1, h2, h3, h4, h5, h6, p, a, button {
   font-family: "Roboto", sans-serif;
 }
 
+h1 {
+  font-weight: 900;
+  color: #fff;
+  font-size: calc(25px + 1vw);
+}
+
+h2 {
+  font-weight: 300;
+  color: #fff;
+  font-size: calc(15px + 0.5vw);
+}
+
+button {
+  font-weight: 400;
+}
+
+button {
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(0.25turn, orange, red);
+}
+button:hover {
+  background: linear-gradient(-0.25turn, orange, red);
+}
+
+header {
+  height: 8vh;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+header img {
+  height: 100%;
+}
+
+.hero {
+  background: url("../../images/background_IIM.png") no-repeat center center;
+  background-size: cover;
+  height: 92vh;
+  min-height: 250px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+@media screen and (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
+.hero .titles {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20%;
+}
+.hero .titles .line {
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(0.25turn, orange, red);
+  margin: 20px 0;
+}
+.hero .titles h2 {
+  width: 60%;
+  min-width: 300px;
+}
+@media screen and (max-width: 900px) {
+  .hero .titles {
+    padding-left: 0;
+    align-items: center;
+  }
+  .hero .titles .line {
+    width: 20%;
+  }
+  .hero .titles h2 {
+    text-align: center;
+  }
+}
+.hero .container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .container-form form {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #ffffffb7;
+  border-radius: 10px;
+  width: fit-content;
+  height: fit-content;
+  width: 400px;
+}
+.hero .container-form form h2 {
+  color: #333;
+  font-weight: 700;
+  font-size: 20px;
+}
+.hero .container-form form label {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.hero .container-form form input, .hero .container-form form select {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+  color: #333;
+}
+.hero .container-form form input::placeholder, .hero .container-form form select::placeholder {
+  color: #333;
+}
+.hero .container-form form button {
+  margin-top: 30px;
+  width: fit-content;
+  align-self: flex-end;
+}
+
 /*# sourceMappingURL=main.css.map */
