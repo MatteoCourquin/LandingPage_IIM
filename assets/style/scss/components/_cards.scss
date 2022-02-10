@@ -1,0 +1,21 @@
+.cards-testimonials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .text{
+        margin-left: 30px;
+        p{
+            text-align: justify;
+        }
+        span{
+            display: block;
+            text-align: end;
+            margin-top: 20px;
+        }
+    }
+}

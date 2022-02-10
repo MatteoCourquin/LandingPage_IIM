@@ -22,14 +22,15 @@ h3{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    margin: 50px 0;
 }
 p{
     font-weight: 400;
     font-size: 1rem;
-    span{
-        font-size: 1rem;
-        font-weight: 300;
-    }
+}
+span{
+    font-size: 1rem;
+    font-weight: 300;
 }
 button{
     font-weight: 400;

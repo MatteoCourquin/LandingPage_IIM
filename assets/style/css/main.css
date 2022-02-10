@@ -31,13 +31,15 @@ h3 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  margin: 50px 0;
 }
 
 p {
   font-weight: 400;
   font-size: 1rem;
 }
-p span {
+
+span {
   font-size: 1rem;
   font-weight: 300;
 }
@@ -56,6 +58,28 @@ button {
 }
 button:hover {
   background: linear-gradient(-0.25turn, orange, red);
+}
+
+.cards-testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-testimonials img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.cards-testimonials .text {
+  margin-left: 30px;
+}
+.cards-testimonials .text p {
+  text-align: justify;
+}
+.cards-testimonials .text span {
+  display: block;
+  text-align: end;
+  margin-top: 20px;
 }
 
 header {
@@ -177,7 +201,7 @@ header img {
   width: 80%;
 }
 .description-container .description p {
-  margin: 50px 0;
+  margin-bottom: 50px;
   text-align: justify;
 }
 .description-container .description p span {
@@ -193,6 +217,23 @@ header img {
 }
 .description-container .description .iim-classement img {
   width: 150px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.testimonials-container .testimonials {
+  width: 80%;
+}
+.testimonials-container .testimonials .divider {
+  width: 40%;
+  height: 2px;
+  background: linear-gradient(0.25turn, orange, red);
+  display: block;
+  margin: 20px auto;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+
+.testimonials-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .testimonials{
+        width: 80%;
+        .divider{
+            width: 40%;
+            height: 2px;
+            background: $color-linear;
+            display: block;
+            margin: 20px auto;
+        }
+    }
+}
