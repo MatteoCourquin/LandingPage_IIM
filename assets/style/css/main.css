@@ -65,6 +65,14 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 700px) {
+  .cards-testimonials {
+    flex-direction: column;
+  }
+  .cards-testimonials img {
+    margin: 50px 0;
+  }
+}
 .cards-testimonials img {
   width: 150px;
   height: 150px;
@@ -73,8 +81,10 @@ button:hover {
 .cards-testimonials .text {
   margin-left: 30px;
 }
-.cards-testimonials .text p {
-  text-align: justify;
+@media screen and (max-width: 700px) {
+  .cards-testimonials .text {
+    margin-left: 0px;
+  }
 }
 .cards-testimonials .text span {
   display: block;
@@ -98,13 +108,14 @@ header img {
   background: url("../../images/background_IIM.png") no-repeat center center;
   background-size: cover;
   height: 90vh;
-  min-height: 900px;
+  min-height: 550px;
   display: grid;
   grid-template-columns: 40% 60%;
 }
 @media screen and (max-width: 900px) {
   .hero {
     grid-template-columns: 1fr;
+    min-height: 900px;
   }
 }
 .hero .titles {
@@ -224,6 +235,12 @@ header img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
+}
+@media screen and (max-width: 700px) {
+  .testimonials-container {
+    justify-content: flex-start;
+  }
 }
 .testimonials-container .testimonials {
   width: 80%;

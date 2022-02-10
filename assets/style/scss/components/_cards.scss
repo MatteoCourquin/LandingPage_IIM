@@ -2,6 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width : 700px) {
+        flex-direction: column;
+        img{
+            margin: 50px 0;
+        }
+    }
     img{
         width: 150px;
         height: 150px;
@@ -9,8 +15,8 @@
     }
     .text{
         margin-left: 30px;
-        p{
-            text-align: justify;
+        @media screen and (max-width : 700px) {
+            margin-left: 0px;
         }
         span{
             display: block;

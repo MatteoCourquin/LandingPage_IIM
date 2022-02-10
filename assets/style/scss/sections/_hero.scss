@@ -5,11 +5,12 @@
     background: url('../../images/background_IIM.png') no-repeat center center;
     background-size: cover;
     height: 90vh;
-    min-height: 900px;
+    min-height: 550px;
     display: grid;
     grid-template-columns: 40% 60%;
     @media screen and (max-width : 900px) {
         grid-template-columns: 1fr;
+        min-height: 900px;
     }
     .titles{
         display: flex;
