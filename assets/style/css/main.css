@@ -8,8 +8,12 @@ body {
   font-size: 62.5%;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, button {
+h1, h2, h3, h4, h5, h6, p, a, button, label, input, select {
   font-family: "Roboto", sans-serif;
+}
+
+label, input, select {
+  font-weight: 300;
 }
 
 h1 {
@@ -52,7 +56,7 @@ button {
   font-weight: 400;
 }
 
-button {
+button, .button {
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -60,7 +64,7 @@ button {
   border-radius: 5px;
   background: linear-gradient(0.25turn, orange, red);
 }
-button:hover {
+button:hover, .button:hover {
   background: linear-gradient(-0.25turn, orange, red);
 }
 
@@ -191,7 +195,8 @@ header img {
 .hero .container-form form input::placeholder, .hero .container-form form select::placeholder {
   color: #333;
 }
-.hero .container-form form button {
+.hero .container-form form .button {
+  color: #fff;
   margin-top: 30px;
   width: fit-content;
   align-self: flex-end;

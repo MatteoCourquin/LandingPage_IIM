@@ -1,10 +1,13 @@
 // **** TYPO **** //
 // ============== //
 
-h1, h2, h3, h4, h5, h6, p, a, button{
+h1, h2, h3, h4, h5, h6, p, a, button, label, input, select{
     font-family: $font-roboto;
 }
 
+label, input, select{
+    font-weight: 300;
+}
 h1{
     font-weight: 900;
     color: $color-white;
